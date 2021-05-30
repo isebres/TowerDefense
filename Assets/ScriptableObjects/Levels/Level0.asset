@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834fa9b7d94014ea19a09b8a6771629d, type: 3}
+  m_Name: Level0
+  m_EditorClassIdentifier: 
+  Coins: 300
+  Health: 100
+  Background: {fileID: 21300000, guid: f015a462e9e022646a564a3c17cdc12c, type: 3}
+  Towers:
+  - {fileID: 11400000, guid: 047df798c8b454459b369eb6f1df9582, type: 2}
+  - {fileID: 11400000, guid: d468b175af07b455a8312673b7d068a8, type: 2}
+  - {fileID: 11400000, guid: 425290c0cb9ca4cf4a1d6c8045d1c058, type: 2}
+  - {fileID: 11400000, guid: 1115bb20256094c5a9cbf4506d1c65d7, type: 2}
+  Waves:
+  - {fileID: 11400000, guid: 4052476be791343308ecc41ca0938fe3, type: 2}
+  - {fileID: 11400000, guid: 7067b22916b504e4293c7575515fd891, type: 2}
+  TowerSlots:
+  - {x: 4, y: 3}
+  - {x: 10, y: 3}
+  - {x: 10, y: 6}
+  - {x: 15, y: 6}
+  - {x: 15, y: 3}
